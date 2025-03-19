@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Game download - Avis et Téléchargements</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body{
+            margin: 20px;
+            padding: 10px;
+            background-color: #f4f4f4;
+            background: url('font.jpg') no-repeat center center/cover;
+        }
+        header{
+            color: white;
+            text-align: center;
+            padding: 67px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+        }
+        nav ul{
+            list-style: none;
+            padding: 10px;
+            background: #444;
+            overflow: hidden;
+            color: white;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 11);
+        }
+        nav ul li {
+            display: inline;
+            padding: 20px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none ;
+            font-weight: bold;
+        }
+        main{
+            padding: 20px;
+        }
+        section{
+            margin-bottom: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+        }
+        img{
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+        }
+        footer{
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        button{
+            background: #af9f9f;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 3s;
+        }
+        button :hover{
+            background: #555;
+        }
+        .game-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .game-item{
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .game-item img{
+            width: 45%;
+            height: auto;
+            max-width: 300px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        label, input, textarea, select, button{
+            margin-bottom: 10px;
+        }
+        .Lien{
+            text-decoration: none;
+            background: black;
+            background: #af9f9f;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 3s;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Game Download
+        </h1>
+        <p>Bienvenue sur Game Download, votre source pour télécharger et évaluer vos jeux vidéos</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#action"></a>Jeux d'Action</li>
+            <li><a href="#sport"></a>Jeux de Sport</li>
+            <li><a href="#aventure"></a>Jeux d'Aventure</li>
+            <li><a href="#Contact"></a> Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="action">
+            <h2>Jeux d'Action</h2>
+            <div class="game-list">
+                <div class="game-item">
+                    <h3> Call of Duty: modern Warfare</h3>
+                    <img src="call of duty.jpeg" alt="Call of Duty" >
+                    <p>un jeu de tir à la première personne immersif avec des graphismes réalistes et une action intense</p>
+                    <button><a class="Lien" href="https://call-of-duty-modern-warfare-2-remaster.fr.softonic.com/telecharger" class="image">Téléchargement</a></button>
+                    <a class="Lien" href="#review" >Donnez votre avis</a>
+                </div>
+                <div class="game game-item">
+                    <h3>Battlefield V</h3>
+                    <img src="battlefiel.jpg" alt="Battlefield" >
+                    <p>Plongez dans des battailles épiques et découvrez un gameplay stratégique</p>
+                    <button><a class="Lien"  href="https://battlefield-4.fr.softonic.com/telecharger" >Téléchargement</a></button>
+                    <a class="Lien" href="#review" >Donnez votre avis</a>
+                </div>
+                <div class="game-item">
+                    <h3> DOOM Eternal</h3>
+                    <img src="DOOM-Eternal.jpg" alt="DOOM Eternal" >
+                    <p> un jeu de tir intense avec des combats rapides et un design impressionnant</p>
+                    <button><a class="Lien"  href="https://doom-eternal.fr.softonic.com/telecharger" >Télécharger</a></button>
+                    <a class="Lien" href="#review" >Donnez votre avis</a>
+                </div>
+            </div>
+        </section>
+        <section id="Sport">
+            <h2>Jeux de Sport</h2>
+            <div class="game-list">
+                <div class="game-item">
+                    <h3>FIFA</h3>
+                    <img src="fifa-23.jpg" alt="FIFA" >
+                    <P>Le jeu de football ultime avec des modes de jeu réalistes et des compétences passionnantes.</P>
+                    <button><a class="Lien"  href="https://www.01net.com/telecharger/jeux/sport/fifa-23.html/service-358443/" class="image">Télécharger</a></button>
+                    <a class="Lien" href="#review">Donnez votre avis</a>
+                </div>
+                <div class="game ">
+                    <h3>gran Turismo</h3>
+                    <img src="grant7.jpg" alt="Gran Turismo" >
+                    <p>La simulation automobile ultime pour les passionnés de vitesse</p>
+                    <button><a class="Lien"  href="https://gran-turismo-5-windows-theme.fr.uptodown.com/windows/telecharger" >Télécharger</a></button>
+                    <a class="Lien" href="#review" >Donnez votre Avis</a>
+                </div>
+                <div class="game-item">
+                    <h3>FIFA</h3>
+                    <img src="nba.jpg" alt="NBA 2K23" >
+                    <P>Le jeu de basketball ultime avec des modes de jeu réalistes et des compétences passionnantes.</P>
+                    <button><a class="Lien"  href="https://www.01net.com/telecharger/jeux/sport/fifa-23.html/service-358443/" >Télécharger</a></button>
+                    <a class="Lien" href="#review" >Donnez votre avis</a>
+            </div>
+        </section>
+        <section id="aventure">
+            <h2>Jeux d'Aventure</h2>
+            <div class="game-list">
+                <div class="game-item">
+                    <h3> The Legend of Zelda: Breath of the wild</h3>
+                    <img src="zelda-breath-of-the-wild.jpg" alt="The Legend of Zelda" >
+                    <p>Explorez un vaste monde ouvert rempli de mystères et d'aventures &piques</p>
+                    <button><a class="Lien"  href="https://zelda-classic.fr.uptodown.com/windows/telecharger" >Télécharger</a></button>
+                    <a class="Lien" href="#review" > Donnez votre avis</a>
+                </div>
+                <div class="game game-item">
+                    <h3>Uncharted 4: A Thief's End</h3>
+                    <img src="uncharted.jpg" alt="Uncharted 4">
+                    <p>Rejoignez Nathan Drake dans une anevture palpitante à travers des paysages exotiques</p>
+                    <button><a class="Lien" href="https://www.lesnumeriques.com/telecharger/uncharted-legacy-of-thieves-collection-62012-58506-telechargement" >Télécharger</a></button>
+                    <a class="Lien" href="#review" >Donnez votre avis</a>
+                </div>
+                <div class="game-item">
+                    <h3>Red DEAD Redemption 2</h3>
+                    <img src="red dedemption.jpg" alt="Red DEAD Redemption 2">
+                    <p>un jeu d'aventure immersif dans l'Ouest sauvage avec une histoire captivante</p>
+                    <button><a class="Lien" href="https://zed.fr.uptodown.com/windows/telecharger" X>Télécharger</a></button>
+                    <a class="Lien" href="#review" >Donnez votre avis</a>
+                </div>
+            </div>
+        </section>
+        <section id="Contact">
+            <h2>Donnez votre avis</h2>
+            <form action="#" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="game">jeu évaluée:</label>
+                <select id="game" name="game"></select>
+                <option value="call">Jeux d'action</option>
+                <option value="FIFA">Jeux de sport</option>
+                <option value="Zelda">Jeux d'aventure</option>
+                </select>
+
+                <label for="rating">Note:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+                <label for="comment">Commentaire:</label>
+                <textarea id="comment" name="comment" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 Game Download. Tous droits réservés</p>
+    </footer>
+</body>
+
+</html>
